@@ -363,6 +363,22 @@ transform: translateY(4px);
     /* background-color: aqua; */
     top: 10%; 
 }
+.shopCont{
+    position: absolute;
+    width: 48%;
+    height: 60vh;
+    right: 0%;
+    /* background-color: aqua; */
+    top: 10%; 
+}
+.shopImg{
+    position: absolute;
+    width: 48%;
+    height: 60vh;
+    left: 0%;
+    /* background-color: aqua; */
+    top: 10%; 
+}
 
 .blgImg{
 
@@ -372,7 +388,7 @@ transform: translateY(4px);
     right: 0%;  
     top: 10%; 
 }
-.blgImg img{
+.blgImg img,.shopImg img{
     width: 100%;
     height: 100%;
  }
@@ -444,9 +460,14 @@ transform: translateY(4px);
 
 .evimg1{
     position: absolute;
-    right: -100px;
-    top: -82px;
+    right: 10%;
+    top: 0;
+    width: 120px;
+    z-index: -1;
+    /* background-color: aqua; */
+ 
 }
+
 .evimg2{
     position: absolute;
     left: 10%;
@@ -464,6 +485,7 @@ transform: translateY(4px);
     left: -50px;
     bottom: -30px;
     z-index: -1;
+    
 }
 .evimg5{
     position: absolute;
@@ -615,14 +637,41 @@ margin: 5px;
         width: 100px;
         height: 100px;
        }
+       .abtProg{
+     
+        width: 90vw;
+      flex-wrap: wrap;
+        margin: 20px auto;
+    
+    }
     
 }
 
 
-@media only screen and (max-width:760px) {
+@media only screen and (max-width:780px) {
  .navDiv{
     display: none;
  }
+ .eventprog{
+ 
+    height: 250px;
+    width: 150px;
+
+
+    }
+    
+    .eventprog img{
+        height: 150px;
+        margin: 5px;
+    }
+    .footDiv{
+
+        flex-wrap: wrap;
+        width: 100%;
+
+    
+        /* background-color: bisque; */
+    }
     
 }
 @media only screen and (max-width:500px) {
@@ -648,6 +697,7 @@ margin: 5px;
     .prog img{
         width: 70px;
         height: 70px;
+
        }
        
    }
