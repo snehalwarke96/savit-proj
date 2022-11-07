@@ -263,6 +263,7 @@ transform: translateY(4px);
     /* margin: auto; */
     margin: 40px auto;
     height: auto;
+    
 }
 
 .prog{
@@ -275,6 +276,7 @@ transform: translateY(4px);
    font-size: var(--paraFont);
    /* height: 200px; */
    text-align: center;
+   
 }
 
 .prog img{
@@ -349,6 +351,7 @@ transform: translateY(4px);
     bottom: 4%;
     right: 4%;
     z-index: 1;
+  
 }
 
 
@@ -510,7 +513,7 @@ transform: translateY(4px);
     position: absolute;
     left: 35%;
     bottom: 5%;
-    z-index: -1;
+    z-index: -5;
     width: 15%;
     /* background-color: aqua; */
 }
@@ -541,6 +544,7 @@ width: 250px;
 text-align: center;
 border: 2px solid whitesmoke;
 box-shadow: 0 5px 5px 0 rgb(180, 175, 175) ;
+
 }
 
 .eventprog img{
@@ -612,7 +616,7 @@ footer{
 
     /* background-color: bisque; */
 }
-.footDiv div{
+.footDiv > div{
 margin: 5px;
     width: 20%;
     /* background-color: aqua; */
@@ -633,12 +637,9 @@ margin: 5px;
     
 }
 
-.footdiv1 div{
-    width: 90%;
-    /* background-color: antiquewhite; */
-    /* text-align: justify; */
-    margin: 20px 0;
-}
+
+
+
 
 
 
@@ -689,11 +690,17 @@ margin: 5px;
     .footDiv{
 
         flex-wrap: wrap;
-        width: 100%;
+        
 
     
         /* background-color: bisque; */
     }
+    .footDiv > div{
+        margin: 5px;
+            width: 80%;
+            /* background-color: aqua; */
+           
+        }
     
 }
 @media only screen and (max-width:500px) {
