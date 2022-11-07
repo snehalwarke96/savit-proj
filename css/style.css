@@ -99,11 +99,9 @@
 
 .img1 img{
 width: 14%;
+/* background-color: aqua; */
 }
-.img7 img{
-    width:100px;
-    
-    }
+
 
 .img6 img{
    
@@ -117,48 +115,54 @@ width: 14%;
  
 }
 
-.img7{
-    
+.img7 img{
     position: absolute;
-    right: 3%;
+    right: 0%;
     top: 0%;
     z-index: -1;
-    
-}
-.img5{
+    width: 14%;
+    /* background-color: aqua; */
+    }
+.img5 img{
     /* width: 24%; */
   
     /* background-color: aqua; */
     position: absolute;
+    width: 14%;
     right: 0%;
     bottom: 5%;
     z-index: -1;
     /* background-color: aqua; */
 }
-.img4{
+.img4 img{
     position: absolute;
+    width: 14%;
     right: 0%;
+    bottom: 13%;
+    /* right: 0%;
     bottom: 10%;
-    z-index: -1;
+    z-index: -2; */
     /* background-color: aqua; */
 }
-.img3{
+.img3 img{
     position: absolute;
+    width: 14%;
     left: 10%;
     top: 70%;
     z-index: -1;
     /* background-color: aqua; */
 }
-.img2{
+.img2 img{
     position: absolute;
+    width: 14%;
     left: 13%;
     top: 23%;
     z-index: -1;
     /* background-color: aqua; */
 }
-.img3 img{
+/* .img3 img{
  width: 100px;
-}
+} */
 
 .homeDiv{
     display: flex;
@@ -291,14 +295,17 @@ transform: translateY(4px);
 }
 
 .bgimg2 img{
+      /* background-color: aqua; */
     position:absolute;
     bottom: -10%;
     left: -2%;
+    width: 13%;
     /* z-index: -1; */
 
 }
 .bgimg3 img{
     position:absolute;
+    width: 13%;
     top: 4%;
     left: 47%;
     /* z-index: -1; */
@@ -306,6 +313,7 @@ transform: translateY(4px);
 }
 .bgimg4 img{
     position:absolute;
+    width: 13%;
     top: 4%;
     left: 42%;
     /* z-index: -1; */
@@ -313,6 +321,7 @@ transform: translateY(4px);
 }
 .bgimg5 img{
     position:absolute;
+    width: 13%;
     bottom: 10%;
     left: 50%;
     z-index: 1;
@@ -320,6 +329,7 @@ transform: translateY(4px);
 }
 .bgimg6 img{
     position:absolute;
+    width: 13%;
     top: 3%;
     right: 2%;
     z-index: -1;
@@ -327,12 +337,14 @@ transform: translateY(4px);
 }
 .bgimg7 img{
     position:absolute;
+    width: 13%;
     bottom: 5%;
     right: 2%;
     z-index: 1;
 
 }
 .bgimg8 img{
+    width: 13%;
     position:absolute;
     bottom: 4%;
     right: 4%;
@@ -432,6 +444,7 @@ transform: translateY(4px);
     background: url(../Vectorbg/15.png);
     background-repeat: no-repeat;
     position: absolute;
+    background-size: 30%;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -458,46 +471,55 @@ transform: translateY(4px);
     height: 90vh;
 }
 
-.evimg1{
+.evimg1 img{
     position: absolute;
-    right: 10%;
+    right: 0%;
     top: 0;
-    width: 120px;
+    width: 14%;
     z-index: -1;
     /* background-color: aqua; */
  
 }
 
-.evimg2{
+.evimg2 img{
     position: absolute;
     left: 10%;
     top: 0px;
     z-index: -1;
+    width: 10%;
+     /* background-color: aqua; */
 }
-.evimg3{
+.evimg3 img{
     position: absolute;
     left: 10%;
     top: 0px;
     z-index: -1;
+    width: 15%;
+    /* background-color: aqua; */
 }
-.evimg4{
+.evimg4 img{
     position: absolute;
-    left: -50px;
-    bottom: -30px;
+    left: 0px;
+    bottom: 0px;
     z-index: -1;
+    /* background-color: aqua; */
+    width: 15%;
     
 }
-.evimg5{
+.evimg5 img{
     position: absolute;
     left: 35%;
     bottom: 5%;
     z-index: -1;
+    width: 15%;
+    /* background-color: aqua; */
 }
-.evimg6{
+.evimg6 img{
     position: absolute;
     right: 5%;
     bottom: 5%;
     z-index: -1;
+    width: 15%;
 }
 
 .eventCont{
