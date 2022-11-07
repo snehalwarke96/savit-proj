@@ -260,7 +260,7 @@ transform: translateY(4px);
     height: auto;
     justify-content: space-around;
     align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     /* margin: auto; */
     margin: 40px auto;
     height: auto;
